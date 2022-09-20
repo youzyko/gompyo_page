@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/*하단전체 넓이/높이*/
+.bottom_wrap{
+	width:1920px;
+	height: 500px;
+/*	border: 1px solid red;*/
+	background-color: #0db5cb;
+	margin-top: 7px;
+	
+	
+}
+/*footer넓이 높이 실제 글자가 들어가는 공간*/
+#bottom_wrap{
+	width: 1270px;
+	height: 420px;
+/*	background-color: darkgray;*/
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+}
+/*bottom윗부분*/
+#bottom_wrap_top{
+	width: 1270px;
+	height: 210px;
+/*	border: 1px solid red;*/
+	padding-top: 20px;
+	
+}
+
+
+/*하단_곰표하우스 글씨로고*/
+#bottom_wrap_top>ul>li:nth-child(1){
+/*	border: 1px solid red;*/
+	width: 254px;
+	height: 210px;
+	font-size: 25px;
+	float: left;
+	color: white;
+/*	background-color: red;*/
+	line-height: 1.2em;
+}
+
+/*계열사소개*/
+#bottom_wrap_top>ul>li:nth-child(2){
+/*	border: 1px solid red;*/
+	width: 254px;
+	height: 205px;
+	float: left;
+	line-height: 1.5em;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+/*	background-color: pink;*/
+}
+
+#bottom_wrap_top>ul>li:nth-child(2)>p:first-child{
+	font-size:20px;
+	margin-bottom: 15px;
+/*	background-color: red;*/
+}
+#bottom_wrap_top>ul>li:nth-child(2)>p:first-child img{
+	margin-right: 10px;
+}
+
+/*고객센터*/
+#bottom_wrap_top>ul>li:nth-child(3){
+/*	border: 1px solid red;*/
+	width: 254px;
+	height: 210px; 
+	float: left;
+	line-height: 1.6em;
+	margin-right: 50px;
+	color: white;
+	
+}
+#bottom_wrap_top>ul>li:nth-child(3)>p:first-child{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/*SNS 로고.채용...*/
+#bottom_wrap_top>ul>li:nth-child(4){
+/*	border: 1px solid red;*/
+	width: 254px;
+	height: 190px;
+	float: left;
+	
+}
+/*로고사진만*/
+#sns_link li{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+#sns_link li:last-child{
+	margin-right: none;
+}
+#bottom_wrap_top>ul>li:nth-child(4) p{
+	clear: both;
+	line-height: 1.8em;
+	color: white;
+	
+}
+#bottom_wrap_top>ul>li:nth-child(4) p img{
+/*	border: 1px solid red;*/
+	margin-right: 10px;
+	vertical-align: middle;
+
+}
+/*-------------------------*/
+/*하단_하단 전체넓이 놏이*/
+#bottom_wrap_bottom{
+	width: 1270px;
+	height: 210px;
+	/* border: 1px solid red; */
+	
+}
+/*개인정보처리방침~*/
+#bottom_wrap_bottom>div:nth-child(1)>ul{
+	height: 20px;
+	width: 450px;
+/*	border: 1px solid red;*/
+	color: white;
+}
+#bottom_wrap_bottom>div:nth-child(1)>ul>li{
+	float: left;
+/*	border: 1px solid red;*/
+}
+#bottom_wrap_bottom>div:nth-child(1)>ul>li:nth-child(1){
+	border-right: 1px solid white;
+	padding-right: 20px;
+}
+#bottom_wrap_bottom>div:nth-child(1)>ul>li:nth-child(2){
+	margin-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid white;
+}
+#bottom_wrap_bottom>div:nth-child(1)>ul>li:nth-child(3){
+	margin-left: 20px;
+	padding-right: 20px;
+	
+}
+/*------대한제분(주_--------*/
+#bottom_wrap_bottom>div:nth-child(2){
+/*	border: 1px solid red;*/
+	margin-top: 10px;
+	line-height: 1.5em;
+	color: white;
+}
+
+
+#bottom_wrap_bottom>div:nth-child(3)>li{
+	list-style: none;
+	margin-top: 10px;
+	color: white;
+	line-height: 1.5em;
+}
+#bottom_wrap_bottom>div:nth-child(4){
+	font-size: 11px;
+	margin-top: 10px;
+	color: white;
+}
+
+
+
+
+
+

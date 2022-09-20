@@ -1,0 +1,138 @@
+@charset "utf-8";
+.join_mem_whole{
+    margin: 0 auto;
+ 
+    width: 1920px;
+    height: 1000px;
+}
+.join_mem_main_img{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 50px;
+}
+.join_mem_type{
+    /* border: 1px solid red; */
+    font-size: 18px;
+    height: 50px;
+    margin-top: 30px;
+}
+.join_mem_type>ul>li{
+    float: left;
+    line-height: 50px;
+    margin-right: 50px;
+}
+.join_mem_type>ul>li:first-child{
+    margin-left: 800px;
+}
+input[type=checkbox]{
+    background-color: #FFFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 16px;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+   border-radius: 20px;
+    margin-top: -1px;
+	vertical-align: middle;
+
+}
+input[type=checkbox]:checked{
+    background-color:#0db5cb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 16px;
+    border: none;
+    width: 15px;
+    height: 15px;
+   
+}
+.join_mem_type_caption{
+    clear: both;
+}
+.join_mem_type_caption{
+    /* */
+    font-size: 10px;
+    color: lightslategray;
+    text-align: left;
+    line-height: 1.5em;
+    margin-left: 800px;
+    margin-top: 5px;
+}
+.join_mem_title{
+    /* border: 1px solid red; */
+    margin-left: 800px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.join_mem_title span{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.join_mem_text{
+    /* border: 1px solid red; */
+    margin-left: 800px;
+    margin-top: 7px;
+    position: relative;
+}
+.join_mem_text input{
+    width: 300px;
+    height: 40px;
+    text-indent: 10px;
+}
+.join_mem_text button{
+    position: absolute;
+    left:230px;
+    top: 10px;
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+    background-color: #0db5cb;
+   border: none;
+}
+.join_mem_email{
+    /* border: 1px solid red; */
+   margin-left: 800px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.join_mem_email input{
+    width: 200px;
+    height: 40px;
+   
+}
+#domain-txt{
+    height: 40px;
+    width: 100px;
+}
+.join_mem_email span{
+    font-size:15px;
+}
+.join_mem_email select{
+    width:95px;
+    height: 45px;
+}
+.join_mem_email_event{
+    /* border: 1px solid red; */
+    margin-left: 790px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    color: lightslategray;
+}
+.join_mem_final_button button{
+    width: 300px;
+    height: 50px;
+    margin-left: 800px;
+    margin-top: 30px;
+    background-color: white;
+    color:#0db5cb;
+    border:1px solid #0db5cb;
+    cursor: pointer;
+}
+.join_mem_final_button button:hover{
+    background-color: #0db5cb;
+    color: white;
+}

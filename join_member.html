@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/quickandmain01.css">
+    <link rel="stylesheet" href="./css/join_member.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/join_member.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="top_top">
+        <ul class="quick">
+            <li><a href="#">기프트카드 등록</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="creataccount.html">로그인</a></li>
+            <li><a href="join_member.html">회원가입</a></li>
+        </ul><!--quick-->
+        
+         
+         <h1><a href="./index.html"><img src="./images/pic01_b.png" alt="파란곰표로고" width="66" height="50"><img src="./images/logo01_blue.png" alt="메인페이지 상단 곰표로고" width="119" height="50"></a></h1>
+         
+
+         <nav id="main_menu">
+         <ul>
+             <li><a href="#">브랜드관</a>
+             <div>
+                 <ul class="sub_menu">
+                     <li><a href="#">곰표 히스토리</a></li>
+                     <li><a href="#">곰표 뮤지엄</a></li>
+                     <li><a href="#">굿즈 전시관</a></li>
+                     <li><a href="#">곰표 온라인견학</a></li>
+                 </ul>
+                 </div>
+             </li><!--브랜드관-->
+             
+             <li><a href="#">곰표 LAB</a>
+             <div>
+                 <ul class="sub_menu">
+                     <li><a href="recipe.html">인기레시피</a></li>
+                     <li><a href="#">곰표 PICK 빵집</a></li>
+                     <li><a href="#">곰표 쿠킹스튜디오</a></li>
+                 </ul>
+                 </div>
+             </li><!--곰표 LAB-->
+             
+             <li><a href="#">쇼핑몰</a>
+             <div>
+                 <ul class="sub_menu">
+                     <li><a href="#">TOP 10</a></li>
+                     <li><a href="#">쇼핑몰</a></li>
+                 </ul>
+                </div>
+             </li><!--곰표 LAB-->
+             
+             <li><a href="#">Q&amp;A</a>
+             <div>
+                 <ul class="sub_menu">
+                     <li><a href="QnA.html">자주묻는 질문</a></li>
+                     <li><a href="#">문의사항</a></li>
+                 </ul>
+                 </div>
+             </li><!--Q&A-->
+             </ul>
+         </nav>
+    </header><!--top_top-->
+<!-- ============================================================================ -->
+<div class="join_mem_whole">
+    <div class="join_mem_main_img"><img src="./images/logo01_blue.png" alt="곰표로고"></div>
+
+    <div class="join_mem_type">
+        <ul>
+            <li>
+                <input type="checkbox" checked autocomplete="off" id="normal">
+                <label for="normal">개인회원</label>
+            </li>
+
+            <li>
+                <input type="checkbox"  autocomplete="off" id="bussiness">
+                <label for="bussiness">사업자회원</label>
+            </li>
+        </ul>
+    </div>
+
+    <div class="join_mem_type_caption">
+        사업자회원의 경우 사업자정보를 입력한 후 사업자등록증 원본을 <br>
+        해당 이메일(jpshon@dhflour.co.kr)로 보내주세요. 내부 확인 후 승인이 완료되면<br>
+        수신동의하신 이메일 또는 휴대폰으로 결과가 발송됩니다.
+    </div>
+
+    <div class="join_mem_title">아이디 <span>*</span></div>
+    <div class="join_mem_text">
+        <input type="text" placeholder="아이디 입력 (한글, 특수문자 불가)" required autocomplete="off">
+        <button type="button">중복확인</button>
+    </div>
+    <div class="join_mem_title">비밀번호<span>*</span></div>
+    <div class="join_mem_text"><input type="password" placeholder="8~12자리 입력" required autocomplete="off"></div>
+    <div class="join_mem_text"><input type="password" placeholder="비밀번호 재입력" required autocomplete="off"></div>
+    <div class="join_mem_title">이름<span>*</span></div>
+    <div class="join_mem_text" ><input type="text" placeholder="이름입력" required autocomplete="off"></div>
+    <div  class="join_mem_title">이메일</div>
+    <div class="join_mem_email">
+        <input type="email"placeholder="이메일 입력">
+        <span>@</span>
+        <input class="box" id="domain-txt" type="text"/>
+        <select class="box" id="domain-list">
+          <option value="naver.com">naver.com</option>
+          <option value="google.com">google.com</option>
+          <option value="hanmail.net">hanmail.net</option>
+          <option value="nate.com">nate.com</option>
+          <option value="kakao.com">kakao.com</option>
+          <option value="type">직접 입력</option>
+        </select>
+    </div>
+   <div class="join_mem_email_event"><input type="checkbox" id="join_mem_email_event"><label for="join_mem_email_event">정보/이벤트 메일 수신에 동의합니다.</label></div>
+    <div  class="join_mem_title">전화번호</div>
+    <div class="join_mem_text"><input type="text" placeholder="'-' 제외하고 입력"></div>
+    <div class="join_mem_final_button"><button type="button">회원가입</button></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

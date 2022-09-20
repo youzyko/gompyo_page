@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,li{
+    list-style: none;
+}
+button,input{
+    outline: none;
+}
+
+/* 로그인 전체페이지 규격 */
+.login_page_whole{
+    width: 1920px;
+    height: 1000px;
+    /* background-color: tomato; */
+    margin: 0 auto;
+    
+}
+/* 로그인 부분 */
+.login_area{
+    /* background-color: tomato; */
+    width: 1920px;
+    height: 700px;
+}
+.login_tit{
+    /* background-color: blanchedsalmond; */
+    height: 70px;
+    position: relative;
+   
+    
+}
+.login_tit h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+.login_tit a{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    text-align: center;
+    font-size: 0;
+    width:46px;
+    height: 46px;
+    background: url(../images/btn_title_close.png) no-repeat;
+    border: none;
+}
+/* 대한제분에 오신것을 환영합니다 */
+.login_top_txt{
+    /* background-color: tomato; */
+    width:1920px;
+    height: 70px;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 15px;
+   
+} 
+.container{
+    /* background-color: tomato; */
+    width:1920px;
+    height: 700px;
+}
+.container form{
+    width: 480px;
+    height: 255px;
+   
+}
+.login_container{
+    /* background-color: tomato; */
+    width: 350px;
+    height: 150px;
+    margin-left: 700px;
+}
+#login_id{
+    width: 500px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+#login_pwd{
+    width: 500px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.save_id{
+    /* background-color: tomato; */
+    margin-left: 700px;
+    width: 300px;
+    height: 30px;
+}
+.login_button button{
+    width: 500px;
+    height: 50px;
+    margin-left: 700px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    
+}
+.login_button button:hover{
+    background-color: lightgray;
+}
+.login_sns_button{
+    width: 700px;
+    height: 100px;
+    /* background-color: tomato; */
+    margin-left: 700px;
+    
+}
+.login_sns_button ul li{
+    float: left;
+    margin-right: 100px;
+}
+.login_sns_button span{
+    display: block;
+    margin-top: 10px;
+  
+}
+.login_help{
+    /* border:1px solid red; */
+    width: 700px;
+    height: 50px;
+    margin-left: 750px;
+    font-size: 13px;
+   
+    
+}
+
+.login_help ul li{
+    float: left;
+    
+    /* background-color: tomato; */
+    border-right: 1px solid #666666;
+    padding: 0 20px;
+}
+.login_help ul li a{
+  line-height: 2em;
+}
+.login_help ul li:last-child{
+    border: none;
+}
+.login_join button{
+    width: 500px;
+    height: 50px;
+    margin-left: 700px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    
+}
+.login_join button:hover{
+    background-color: lightgray;
+}
+.login_join button span{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.login_join button em{
+    font-weight: bold;
+    margin-right: 20px;
+    display: inline;
+    float: right;
+}

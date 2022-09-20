@@ -1,0 +1,224 @@
+@charset "utf-8";
+a{
+    color: black;
+}
+.qna_wrap{
+    width:1920px;
+    height:1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.qna_wrap h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.qna_three_container{
+    /* border: 1px solid red;  */
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+    height: 50px;
+   
+}
+.qna_three_container ul li{
+    float: left;
+    margin-right: 30px;    
+    margin-top: 30px;
+ 
+}
+
+.qna_three_container ul li:first-child{
+    margin-left:820px;
+   
+}
+.qna_three_container ul li a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.small_bar{
+    height: 5px;
+    background-color:#0db5cb ;
+    text-indent: -999999px;
+    width: 50px;
+    margin-left: 200px;
+    
+}
+.qna_small_title{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.qna_small_title_detail{
+    font-size: 15px;
+    color: lightslategrey;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.qna_five{
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.qna_five ul li{
+    float: left;
+    border: 1px solid lightblue;
+  height: 40px;
+  width: 70px;
+ text-indent: 20px;
+  line-height: 40px;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+.qna_five ul li:nth-child(4){
+    height: 40px;
+    width: 100px;
+}
+.qna_five ul li a{
+    display: block;
+    height: 40px; 
+    width: 70px;
+    
+}
+.qna_five ul li:nth-child(4) a{
+    display: block;
+    height: 40px; 
+    width: 100px;
+    text-indent: 5px;
+}
+.qna_title{
+    clear: both;
+   border-top: 2px solid black ;
+   margin-top: 30px;
+  margin-left: 200px;
+    width: 1500px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+    border-bottom: 1px solid black ;
+   
+}
+.qna_list{
+    /* border: 1px solid red; */
+}
+.qna_list dl dt{
+    /* border: 1px solid red; */
+    margin-left: 200px;
+   background: url(../images/arrow1_q.png) no-repeat 1450px 30px;
+
+}
+.qna_list dl dt a span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.qna_list dl dt a span:first-child{
+   padding-top: 30px;
+   display: block;
+   
+}
+.qna_list dl dd{
+    width: 1500px;
+    margin-left: 200px;
+   background-color: #cccccc;
+   padding-top: 30px;
+  
+  
+}
+.qna_answer{
+    /* border: 1px solid red; */
+    margin-left: 400px;
+    line-height: 1.8em;
+    font-size: 17px;
+}
+.qna_list dl dd:nth-of-type(1){
+   /* border: 1px solid black; */
+   height:250px;
+   
+}
+.asking{
+    margin-left: 1200px;
+    font-weight: bold;
+}
+.star_wrap{
+    margin-left: 1200px;
+    margin-top: 10px;
+}
+.btn_wrap{
+    margin-left: 1200px;
+    margin-top: 3px;
+}
+.btn_wrap input{
+    height: 30px;
+}
+/* js */
+.qna_wrap dl dt a.selected{
+    color:#0db5cb;
+    background-image: url(../images/arrow2_q.png);
+}
+.page_button{
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top:100px;
+}
+.page_button ul {
+    margin-left: 800px;
+    width: 300px;
+    /* border: 1px solid red;  */
+    height: 50px;
+    position: relative;
+  
+}
+.page_button ul li{
+    float: left;
+}
+.page_button ul li:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.page_button ul li:nth-child(2){
+    position: absolute;
+    left:80px;
+    top: 13px;
+}
+.page_button ul li:nth-child(3){
+    position: absolute;
+    left: 140px;
+    top: 13px;
+}
+.page_button ul li:nth-child(4){
+    position: absolute;
+    left: 200px;
+    top: 10px;
+   
+}
+.qna_add{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 150px;
+    margin-left: 1545px;
+  
+    
+}
+.qna_add button{
+    float: right;
+   padding: 5px 10px;
+    border: 1px solid #0db5cb;
+    background-color: white;
+    color:  #0db5cb;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.qna_add button:hover{
+    background-color: #0db5cb;
+    color: white;
+}
+/* js */
+.qna_five ul li a.selected2{
+    background-color: black;
+    color: white;
+}

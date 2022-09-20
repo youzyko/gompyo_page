@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+a{
+	color: black;
+}
+
+nav{
+	list-style: none;
+}
+/*메인페이지 전체넓이 높이*/
+
+/*---------top_img-------------*/
+#s_banner_wrap{
+	width: 1920px;
+	height: 1000px;
+	/* border:1px solid black; */
+	/* overflow: hidden;*/
+}
+.bxslider_01{
+	width: 1920px;
+	height: 1000px;
+	position: relative;
+}
+.banner_0{
+	width: 1920px;
+	height: 1000px;
+	background: url(../images/main_page_image_ver2_02.jpg) no-repeat;
+}
+.banner_0 p{
+	font-size: 100px;
+	position: absolute;
+	top:50%;
+	left: 750px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-weight: bold;
+	
+}
+.banner_0 span{
+	font-size: 20px;
+	position: absolute;
+	top: 590px;
+	left: 800px;
+	
+	color: white;
+}
+.banner_1{
+	width: 1920px;
+	height: 1000px;
+	background: url(../images/main_background.jpg) no-repeat;
+}
+.banner_1 p{
+	font-size: 100px;
+	position: absolute;
+	top:50%;
+	left: 100px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-weight: bold;
+}
+.banner_1 span{
+	font-size: 20px;
+	position: absolute;
+	top:590px;
+	left: 100px;
+	color: white;
+	
+}
+.banner_2{
+	width: 1920px;
+	height: 1000px;
+	background: url(../images/cupcake.jpg) no-repeat;
+	background-size: 1920px 1000px;
+}
+.banner_2 p{
+	font-size: 100px;
+	position: absolute;
+	top:50%;
+	left: 70px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-weight: bold;
+}
+.banner_2 span{
+	font-size: 20px;
+	position: absolute;
+	top:590px;
+	left: 70px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

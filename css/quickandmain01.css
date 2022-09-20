@@ -1,0 +1,107 @@
+@charset "utf-8";
+a{
+	color: black;
+}
+#top_top{
+	/* border: 1px solid red; */
+	
+	width: 1920px;
+	height: 150px;
+	background-color: rgba(204, 204, 204, 0.3);
+	margin: 0 auto;
+}
+/*회원가입/로그인~*/
+.quick{
+	background-color: black;
+	width: 100%;
+	height: 30px;
+/*	border: 1px solid red;*/
+	min-width: 1920px;
+	
+	
+}
+.quick li{
+/*	border: 1px solid red;*/
+	float: right;
+	padding:0 20px;
+	border-left: 2px solid white;
+	margin-top: 5px;
+/*	margin-right: 50px;*/
+}
+.quick li:last-child{
+	border: none;
+}
+.quick li a{
+	color: white;
+/*	border: 1px solid red;*/
+	font-size: 13px;
+}
+
+/*------곰표로고 이미지------*/
+#top_top h1{
+	/* border: 1px solid red; */
+	text-align: center;
+	padding-top: 10px;
+}
+#top_top h1 img:nth-child(1){
+	margin-right: 15px;
+	
+}
+/*------main_menu------*/
+#main_menu{
+	width: 1000px;
+	height: 40px; 
+	color: balck;
+	
+}
+#main_menu>ul{
+	width: 1000px;
+	height: 35px;
+}
+#main_menu>ul>li{
+	float: left;
+	font-size: 30px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	position: relative;
+/*	background-color: aquas;*/
+	height: 30px;
+	font-weight: bold;
+	font-family: 'Do Hyeon', sans-serif;
+	
+}
+
+#main_menu>ul>li:nth-child(1) {
+	margin-left: 50px;
+}
+/*하위 li숨기기*/
+#main_menu>ul>li>div>.sub_menu{
+	display: none;
+}
+#main_menu>ul>li:hover{
+	box-sizing:border-box;
+	border-bottom: 3px solid #01b1c8;
+}
+#main_menu>ul>li>div{
+	width: 100px;
+	height: 50px;
+/*	border: 1px solid red;*/
+	display:none;
+}
+#main_menu>ul>li:hover>div{	display: block;
+	position: absolute;
+	left:0; top:10px; /*background:rgba(0,0,0,0.3);*/
+	z-index: 10; width:200px; height:200px; padding-top:50px;}
+#main_menu>ul>li:hover>div>.sub_menu{
+	display:block;
+	position: absolute;
+	left:0; top:30px; background:rgba(255,255,255,0.5);
+	z-index: 15; width:200px; height:200px;	
+}
+#main_menu>ul>li:hover>div>.sub_menu a{
+	font-size:17px;
+	margin-left: 15px;
+/*	background: yellow;*/
+	display: block;
+	margin-bottom: 20px;
+}

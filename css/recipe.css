@@ -1,0 +1,50 @@
+@charset "utf-8";
+a{
+    color: black;
+}
+.recipe_wrap_whole{
+    /* border: 1px solid red; */
+    width: 1920px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.recipe_wrap_img{
+    /* border: 1px solid red; */
+    height: 200px;
+}
+.recipe_wrap_img ul li:first-child{
+    margin-left:400px;
+}
+.recipe_wrap_img ul li{
+    float: left;
+    margin-right: 50px;
+    
+}
+.recipe_wrap_title{
+    clear: both;
+    margin-left:400px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.recipe_wrap_title ul li{
+    float: left;
+    
+    border:1px solid red
+}
+.recipe_wrap_title ul li:nth-child(2){
+    margin-left: 300px;
+}
+.recipe_wrap_title ul li:last-child{
+    
+}
+.recipe_wrap_details{
+    clear: both;
+}
+
+
+
+
+
+
